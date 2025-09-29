@@ -48,7 +48,7 @@ const MembersCarousel = () => {
   return (
     <div className="py-12 bg-[#ffffff]">
       <h2 className="text-3xl md:text-4xl italic font-bold pt-20 text-center text-pink-600 mb-16">
-        Lakhs Of Happy Members From Over The Globe
+        Our Happy Members
       </h2>
 
       <div className="max-w-7xl mx-auto px-4 md:px-10 pb-20">

@@ -44,9 +44,7 @@ export default function HeroSliderWithTopBar() {
 
                   <div className="absolute left-6 md:left-16 top-1/2 transform -translate-y-1/2 md:max-w-lg bg-white-50/40 shadow-2xl rounded-2xl backdrop-blur-2xl text-white">
                     <h3 className="text-2xl md:text-4xl lg:text-5xl font-[cursive] italic tracking-wide leading-tight">
-                      FIND YOUR
-                      <br />
-                      PERFECT MATCH
+                      Let's Unite
                     </h3>
                     <p className="mt-4 text-lg italic md:text-base opacity-90">
                       Start your journey with{" "}

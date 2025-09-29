@@ -18,8 +18,8 @@ const HomePage = () => {
       <WhyChooseUs />
       <EdgeStatsCircles />
       <MembersCarousel />
-      {/* <RealSuccess /> */}
-      {/* <SuccessStories /> */}
+      <RealSuccess />
+      <SuccessStories />
       {/* <Footer /> */}
     </>
   );
