@@ -18,62 +18,62 @@ const SuccessStories = () => {
       location: "Mumbai",
       image: banner1,
     },
-    // {
-    //   name: "Dr. Shreeram Ajegaonkar & Dr. Shraddha Ajegaonkar",
-    //   story:
-    //     "As doctors from the Marathi community, both of us were searching for more than a typical proposal. We wanted a partner who would share our cultural values, understand our responsibilities, and walk with us.",
-    //   location: "Pune",
-    //   image: banner2,
-    // },
-    // {
-    //   name: "Nishant Sharma & Mrs. Gaurisha Sharma",
-    //   story:
-    //     "Every journey of companionship has a special beginning, and ours started with Elite Bandhan – Bandhan Apna Sa. We are Mr. Nishant and Mrs. Gaurisha Sharma, and we are delighted to share our story as a couple.",
-    //   location: "Jaipur",
-    //   image: banner3,
-    // },
-    // {
-    //   name: "Asif Khan & Shamim",
-    //   story:
-    //     "During my school years, there was a girl I secretly admired. I liked her deeply but never had the courage to speak to her. Coming from a conservative family, I always feared what people would say.",
-    //   location: "Delhi",
-    //   image: banner4,
-    // },
-    // {
-    //   name: "Anas Khan & Shumaila Siddiqui",
-    //   story:
-    //     "Hello, my name is Shumaila, and I am an engineer by profession. Like many working professionals, my life was always busy with projects, deadlines, and responsibilities.",
-    //   location: "Delhi",
-    //   image: banner5,
-    // },
-    // {
-    //   name: "Mohit Jain & Nidhi Agarwal",
-    //   story:
-    //     "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
-    //   location: "Haryana",
-    //   image: banner6,
-    // },
-    // {
-    //   name: "Mohit Jain & Nidhi Agarwal",
-    //   story:
-    //     "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
-    //   location: "Haryana",
-    //   image: banner7,
-    // },
-    // {
-    //   name: "Mohit Jain & Nidhi Agarwal",
-    //   story:
-    //     "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
-    //   location: "Haryana",
-    //   image: banner8,
-    // },
-    // {
-    //   name: "Mohit Jain & Nidhi Agarwal",
-    //   story:
-    //     "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
-    //   location: "Haryana",
-    //   image: banner9,
-    // },
+    {
+      name: "Dr. Shreeram Ajegaonkar & Dr. Shraddha Ajegaonkar",
+      story:
+        "As doctors from the Marathi community, both of us were searching for more than a typical proposal. We wanted a partner who would share our cultural values, understand our responsibilities, and walk with us.",
+      location: "Pune",
+      image: banner2,
+    },
+    {
+      name: "Nishant Sharma & Mrs. Gaurisha Sharma",
+      story:
+        "Every journey of companionship has a special beginning, and ours started with Elite Bandhan – Bandhan Apna Sa. We are Mr. Nishant and Mrs. Gaurisha Sharma, and we are delighted to share our story as a couple.",
+      location: "Jaipur",
+      image: banner3,
+    },
+    {
+      name: "Asif Khan & Shamim",
+      story:
+        "During my school years, there was a girl I secretly admired. I liked her deeply but never had the courage to speak to her. Coming from a conservative family, I always feared what people would say.",
+      location: "Delhi",
+      image: banner4,
+    },
+    {
+      name: "Anas Khan & Shumaila Siddiqui",
+      story:
+        "Hello, my name is Shumaila, and I am an engineer by profession. Like many working professionals, my life was always busy with projects, deadlines, and responsibilities.",
+      location: "Delhi",
+      image: banner5,
+    },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner6,
+    },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner7,
+    },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner8,
+    },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner9,
+    },
   ];
 
   return (

@@ -44,7 +44,7 @@ const PremiumMatrimonialService = () => {
         spaceBetween={20}
         slidesPerView={1}
         loop={true}
-        loopedSlides={images.length}
+        loopedslides={images.length}
         breakpoints={{
           768: {
             slidesPerView: 3,

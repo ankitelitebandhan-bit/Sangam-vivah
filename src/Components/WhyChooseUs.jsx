@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
         <h3 className="text-xl md:text-4xl font-[cursive] font-semibold text-pink-600 italic underline mb-4">
           Why Choose Us?
         </h3>
-        <p className="text-lg italic  text-gray-700 mb-6">
+        <h4 className="text-lg italic  text-gray-700 mb-6">
           Searching for a life partner who aligns with your values, lifestyle,
           and family expectations? Welcome to Sangamvivah.Com — Delhi’s trusted
           name in premium matrimonial services. At Sangamvivah, we believe that
@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
           matchmakers — we're facilitators of meaningful connections. Discover
           why discerning families across Delhi trust us to help shape their most
           important journey.
-        </p>
+        </h4>
         <button className="bg-pink-600 text-white text-sm md:text-base px-6 py-2 rounded-full hover:bg-red-800 transition flex items-center gap-2 max-w-max">
           Explore More
         </button>
