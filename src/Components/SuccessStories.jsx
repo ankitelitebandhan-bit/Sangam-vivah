@@ -74,6 +74,27 @@ const SuccessStories = () => {
       location: "Haryana",
       image: banner9,
     },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner7,
+    },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner8,
+    },
+    {
+      name: "Mohit Jain & Nidhi Agarwal",
+      story:
+        "Hello, I am Mohit Jain from Haryana, and I want to share my experience with you. Being a Manglik, finding the right life partner was one of the biggest challenges of my life.",
+      location: "Haryana",
+      image: banner9,
+    },
   ];
 
   return (
