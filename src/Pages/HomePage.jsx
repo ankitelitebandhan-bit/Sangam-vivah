@@ -20,7 +20,7 @@ const HomePage = () => {
       <MembersCarousel />
       <RealSuccess />
       <SuccessStories />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
