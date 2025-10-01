@@ -55,11 +55,6 @@ const Footer = () => {
 
               <li>
                 <a href="#" className="hover:underline">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
                   Contact
                 </a>
               </li>

@@ -29,11 +29,7 @@ export default function Navbar() {
               Home
             </a>
           </li>
-          <li>
-            <a href="#" className="hover:text-pink-900 hover:underline">
-              Service
-            </a>
-          </li>
+
           <li>
             <a href="#" className="hover:text-pink-900 hover:underline">
               About Us
@@ -74,9 +70,7 @@ export default function Navbar() {
           <a href="#" className="block">
             Home
           </a>
-          <a href="#" className="block">
-            Service
-          </a>
+
           <a href="#" className="block">
             About Us
           </a>

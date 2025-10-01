@@ -1,4 +1,5 @@
-import React from "react";
+// HomePage.js
+import React, { useState, useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import HeroSliderWithTopBar from "../Components/HeroSlider";
 import MatrimonialLayout from "../Components/MatrimonialLayout";
@@ -8,8 +9,24 @@ import MembersCarousel from "../Components/MembersCarousel";
 import SuccessStories from "../Components/SuccessStories";
 import RealSuccess from "../Components/RealSuccess";
 import Footer from "../Components/Footer";
+// import Connect from "../Components/Connect";
+// import Loader from "../Components/Loader";
 
 const HomePage = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <>
       <Navbar />
@@ -20,6 +37,7 @@ const HomePage = () => {
       <MembersCarousel />
       <RealSuccess />
       <SuccessStories />
+      {/* <Connect /> */}
       <Footer />
     </>
   );
