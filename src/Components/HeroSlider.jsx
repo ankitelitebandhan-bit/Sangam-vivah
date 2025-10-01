@@ -43,7 +43,7 @@ export default function HeroSliderWithTopBar() {
                   <div className="absolute inset-0 bg-black/30 md:bg-gradient-to-r md:from-black/60 md:via-black/30 md:to-transparent" />
 
                   <div className="absolute left-6 md:left-16 top-1/2 transform -translate-y-1/2 md:max-w-lg bg-white-50/40 shadow-2xl rounded-2xl backdrop-blur-2xl text-white">
-                    <h3 className="text-2xl md:text-4xl lg:text-5xl font-[cursive] italic tracking-wide leading-tight">
+                    <h3 className="text-2xl md:text-4xl lg:text-5xl  italic tracking-wide leading-tight">
                       Let's Unite
                     </h3>
                     <p className="mt-4 text-lg italic md:text-base opacity-90">

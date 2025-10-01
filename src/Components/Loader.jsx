@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const word = "SANGAM";
+const word = "SANGAMVIVAH";
 
 const Loader = ({ onFinish }) => {
   const [visibleLetters, setVisibleLetters] = useState(0);
@@ -9,7 +9,7 @@ const Loader = ({ onFinish }) => {
     if (visibleLetters < word.length) {
       const timer = setTimeout(() => {
         setVisibleLetters((prev) => prev + 1);
-      }, 200);
+      }, 400);
       return () => clearTimeout(timer);
     } else {
       const finishTimer = setTimeout(() => {
@@ -21,7 +21,7 @@ const Loader = ({ onFinish }) => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-white">
-      <div className="flex space-x-2 text-4xl text-pink-600 italic font-[cursive] font-bold tracking-widest">
+      <div className="flex space-x-2 text-4xl text-pink-600 italic  font-bold tracking-widest">
         {word.split("").map((letter, index) => (
           <span
             key={index}

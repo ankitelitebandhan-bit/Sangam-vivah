@@ -33,8 +33,7 @@ const PremiumMatrimonialService = () => {
         Premium Matrimonial Service Provider
       </h2>
       <p className="text-center text-2xl italic mb-8">
-        across globe{" "}
-        <span className="font-[cursive] underline "> Sangamvivah.com </span>
+        across globe <span className=" underline "> Sangamvivah.com </span>
       </p>
 
       <Swiper

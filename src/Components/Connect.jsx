@@ -5,6 +5,8 @@ const Connect = () => {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
+    email: "",
+    LookingFor: "",
     country: "",
     keyword: "",
   });
@@ -34,6 +36,8 @@ const Connect = () => {
           setFormData({
             name: "",
             phone: "",
+            email: "",
+            LookingFor: "",
             country: "",
             keyword: "",
           });
@@ -74,6 +78,30 @@ const Connect = () => {
             className="w-full p-3 border border-pink-500 rounded-md placeholder-italic focus:outline-none focus:ring-2 focus:ring-pink-700"
             required
           />
+
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Enter email"
+            className="w-full p-3 border border-pink-500 rounded-md placeholder-italic focus:outline-none focus:ring-2 focus:ring-pink-700"
+            required
+          />
+
+          <select
+            name="LookingFor"
+            value={formData.LookingFor}
+            onChange={handleChange}
+            className="w-full p-3 border border-pink-500 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-pink-700"
+            required
+          >
+            <option value="" disabled>
+              Looking For
+            </option>
+            <option value="USA">Male</option>
+            <option value="Canada">Female</option>
+          </select>
 
           <select
             name="country"
