@@ -8,7 +8,7 @@ import MembersCarousel from "../Components/MembersCarousel";
 import SuccessStories from "../Components/SuccessStories";
 import RealSuccess from "../Components/RealSuccess";
 import Footer from "../Components/Footer";
-// import Connect from "../Components/Connect";
+import Connect from "../Components/Connect";
 import Loader from "../Components/Loader";
 
 const HomePage = () => {
@@ -36,7 +36,7 @@ const HomePage = () => {
       <MembersCarousel />
       <RealSuccess />
       <SuccessStories />
-      {/* <Connect /> */}
+      <Connect />
       <Footer />
     </>
   );
