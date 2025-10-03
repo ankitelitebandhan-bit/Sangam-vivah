@@ -99,8 +99,8 @@ const Connect = () => {
             <option value="" disabled>
               Looking For
             </option>
-            <option value="USA">Male</option>
-            <option value="Canada">Female</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
           </select>
 
           <select
